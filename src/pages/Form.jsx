@@ -94,7 +94,7 @@ const Form = () => {
             <div className='rounded-3xl bg-[#111] p-6 flex-1'>
                     <h1 className='text-lg text-white font-semibold'>IdP Configuration</h1>
                     <div className='py-5 flex flex-col gap-y-5'>
-                        <div className='flex gap-x-4 px-4 py-3 bg-[#222] items-center rounded-lg border-b-2 border-transparent focus-within:border-purple-800 transition-all duration-500'>
+                        <div className='flex gap-x-4 px-4 py-3 bg-[#222] items-center rounded-lg border-b-2 border-transparent focus-within:border-purple-800 transition-all duration-500 max-w-[500px]'>
                             <div className='flex flex-col gap-y-1 flex-1'>
                                 <label className='text-sm font-bold text-[#888] tracking-wider'>Group</label>
                                 <select placeholder='Enter code' className='outline-none border-none bg-[#222] text-white font-semibold w-full h-full tracking-wider' onChange={(e) => handleAddGroup(e.target.value)}>
